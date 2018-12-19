@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_bg"
+    android:id="@+id/coordinator_layout"
+    tools:context=".MainActivity">
+ <!-- <LinearLayout
+
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">-->
+
+      <FrameLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:id="@+id/frame_layout"
+          android:layout_weight="1">
+
+      </FrameLayout>
+
+      <android.support.design.widget.BottomNavigationView
+          android:id="@+id/navigation"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          app:itemIconTint="@color/colorstatelist"
+          app:itemTextColor="@color/colorstatelist"
+          android:background="@color/colorGreen"
+          android:layout_gravity="bottom"
+          app:menu="@menu/navigation" />
+
+  <!--  <LinearLayout
+        android:id="@+id/ll_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#d9d7d7"/>
+
+    </LinearLayout>
+
+        <fragment
+            android:id="@+id/mainAppBar"
+            class="com.test.androidserver.initial.AppBar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize" />-->
+<!--</LinearLayout>-->
+</android.support.design.widget.CoordinatorLayout>

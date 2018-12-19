@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:are="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/holo_blue_dark">
+
+    <com.chinalwb.are.AREditText
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/are_et"
+        android:background="@color/grey"/>
+
+    <com.chinalwb.are.Test
+        android:id="@+id/areditor_title"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:minHeight="300dp"
+        are:expandMode="FULL"
+        />
+
+
+</LinearLayout>
+
