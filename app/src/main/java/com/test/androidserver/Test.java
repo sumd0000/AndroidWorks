@@ -12,7 +12,7 @@ public class Test extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        String ss="Nothing";
         //ettt.setImeActionLabel("Custom text", KeyEvent.KEYCODE_ENTER);
 
     }
